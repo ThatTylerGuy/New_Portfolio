@@ -15,12 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    CurtisGolfing,
+    PioneerTown,
+    TCR,
+    CPR,
     threejs,
   } from "../assets";
   
@@ -93,7 +91,7 @@ import {
     {
       title: "IT Contractor",
       company_name: "Surface Creek Valley Historical Society",
-      icon: meta,
+      icon: PioneerTown,
       iconBg: "#383E56",
       date: "Jan 2023 - Current",
       points: [
@@ -106,7 +104,7 @@ import {
     {
       title: "IT System Administrator",
       company_name: "Technical College of the Rockies",
-      icon: tesla,
+      icon: TCR,
       iconBg: "#E6DEDD",
       date: "Oct 2022 - Current",
       points: [
@@ -120,7 +118,7 @@ import {
     {
       title: "Device Repair Technician",
       company_name: "CPR Cell Phone Repair",
-      icon: shopify,
+      icon: CPR,
       iconBg: "#383E56",
       date: "Oct 2020 - Oct 2022",
       points: [
@@ -131,97 +129,24 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Golf With Curtis",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A website dedicated to a professional golfer and his side buisness of teaching newcomers to the game.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: CurtisGolfing,
+      source_code_link: "https://github.com/ThatTylerGuy/CurtisCoaching",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
